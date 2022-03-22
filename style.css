@@ -90,7 +90,7 @@ inner-column nav ul li {
     justify-content: right;
     font-size: 18px;
     padding: 14px 16px;
-    flex-shrink: 1;
+    flex-shrink: 2;
 }
 /* Change the color of links on hover */
 inner-column nav ul li a:hover {
@@ -103,6 +103,7 @@ inner-column blockquote {
     font-weight: light;
     font-size: 36px;
     font-style: italic;
+    flex-shrink: 1;
 }
 
 footer {
