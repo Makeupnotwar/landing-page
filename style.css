@@ -80,7 +80,7 @@ header {
 inner-column nav {
     display: flex;
     flex-direction: row;
-    gap: 60%;
+    gap: 50%;
 
 }
 
@@ -89,6 +89,11 @@ inner-column nav ul li {
     list-style: none;
     justify-content: right;
     font-size: 18px;
+    padding: 14px 16px;
+}
+/* Change the color of links on hover */
+inner-column nav ul li a:hover {
+    color: rgb(255, 24, 74);
 }
 
 inner-column blockquote {
@@ -119,6 +124,20 @@ footer {
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    nav.responsive {position: relative;}
+    nav.responsive {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    nav.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }
 
 .calm-voice {
     font-family: sans-serif;
