@@ -181,7 +181,7 @@ graphic-diptych text-content .button {
 
 @media (mid-width: 700px) {
     inner-column nav {
-        flex-basis: 50%;
+        flex-basis: fit-content;
     }
 }
 ]
