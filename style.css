@@ -75,7 +75,6 @@ header {
     color: var(--white);
     font-size: 24px;
     width: 99%;
-    min-width: 700px;
 }
 
 inner-column nav {
@@ -103,7 +102,6 @@ inner-column blockquote {
     font-weight: light;
     font-size: 36px;
     font-style: italic;
-    min-width: 700px;
 }
 
 footer {
@@ -180,6 +178,13 @@ graphic-diptych text-content .button {
        /* border: 1px solid #0000ff; */
     }
 }
+
+@media (mid-width: 700px) {
+    inner-column nav {
+        flex-basis: 50%;
+    }
+}
+]
 
 .quote {
     background-color: var(--light);
