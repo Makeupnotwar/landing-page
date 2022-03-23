@@ -184,12 +184,6 @@ graphic-diptych text-content .button {
         flex-direction: row-reverse;
     }
 }
-@media (min-width: 700px) {
-    header {
-        gap: 5px;
-    }
-}
-
 .quote {
     background-color: var(--light);
 }
