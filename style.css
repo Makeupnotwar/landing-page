@@ -181,7 +181,7 @@ graphic-diptych text-content .button {
 
 @media (mid-width: 700px) {
     li {
-        flex-basis: 50%;
+        flex-direction: row-revers;
     }
 }
 
