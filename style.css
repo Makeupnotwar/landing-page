@@ -181,7 +181,7 @@ graphic-diptych text-content .button {
 
 @media (mid-width: 700px) {
     inner-column nav {
-        flex-direction: row-reverse;
+        flex-basis: 50%;
     }
 }
 
