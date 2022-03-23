@@ -181,10 +181,9 @@ graphic-diptych text-content .button {
 
 @media (mid-width: 700px) {
     inner-column nav {
-        flex-basis: fit-content;
+        flex-basis: auto;
     }
 }
-]
 
 .quote {
     background-color: var(--light);
