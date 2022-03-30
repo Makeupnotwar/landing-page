@@ -70,7 +70,7 @@ inner-column {
 }
 
 header {
-    padding: 10px;
+    /*padding: 10px;*/
     background: var(--dark);
     color: var(--white);
     font-size: 24px;
@@ -81,10 +81,10 @@ inner-column nav {
     display: flex;
     flex-direction: row;
     gap: 50%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
