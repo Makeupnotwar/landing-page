@@ -98,7 +98,7 @@ inner-column nav ul li {
 }
 /* Change the color of links on hover */
 inner-column nav ul li a:hover {
-    color: rgb(255, 24, 74);
+    color: rgb(241, 56, 96);
 }
 
 inner-column blockquote {
@@ -186,7 +186,7 @@ graphic-diptych text-content .button {
 
 @media (mid-width: 700px) {
     li {
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
 }
 .quote {
@@ -195,7 +195,7 @@ graphic-diptych text-content .button {
 
 action-text {
     display: block;
-    color: var(--black)
+    color: var(--black);
 }
 
 action-button {
@@ -208,8 +208,8 @@ action-button {
 .action inner-column {
     display: flex;
     justify-content: center;
-    margin: 100px;
-    gap: 50%;
+    margin: 65px;
+    gap: 40%;
     background-color: var(--color);
     padding: 10px;
 }
