@@ -94,6 +94,7 @@ inner-column nav ul li {
     justify-content: right;
     font-size: 18px;
     padding: 14px 16px;
+    flex-wrap: wrap;
 }
 /* Change the color of links on hover */
 inner-column nav ul li a:hover {
